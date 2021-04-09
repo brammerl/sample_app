@@ -1,0 +1,140 @@
+Started GET "/" for 99.167.200.217 at 2021-04-07 20:19:43 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (4.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 49ms (Views: 14.2ms | ActiveRecord: 0.0ms | Allocations: 3332)
+
+
+Started GET "/satic_pages/home" for 99.167.200.217 at 2021-04-07 20:19:51 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/satic_pages/home"):
+  
+Started GET "/static_pages/home" for 99.167.200.217 at 2021-04-07 20:19:58 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 89)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/ubuntu/environment/sample_app/public/packs
+[Webpacker] Hash: e332c6419728fac579d5
+Version: webpack 4.46.0
+Time: 3562ms
+Built at: 04/07/2021 8:20:08 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-f826770d917d8a37c1d8.js    125 KiB  application  [emitted] [immutable]  application
+js/application-f826770d917d8a37c1d8.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-f826770d917d8a37c1d8.js js/application-f826770d917d8a37c1d8.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 9650.3ms | Allocations: 16645)
+Completed 200 OK in 9655ms (Views: 9654.4ms | ActiveRecord: 0.0ms | Allocations: 17872)
+
+
+Started GET "/" for 99.167.200.217 at 2021-04-07 20:30:14 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (4.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 19ms (Views: 6.8ms | ActiveRecord: 0.0ms | Allocations: 2043)
+
+
+Started GET "/static_pages/home" for 99.167.200.217 at 2021-04-07 20:30:28 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.7ms | Allocations: 204)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 47.2ms | Allocations: 5561)
+Completed 200 OK in 59ms (Views: 51.5ms | ActiveRecord: 0.0ms | Allocations: 7002)
+
+
+  [1m[35m (2.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (18.0ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (9.0ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2021-04-09 17:39:06.502686"], ["updated_at", "2021-04-09 17:39:06.502686"]]
+  [1m[36mTRANSACTION (8.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 99.167.200.217 at 2021-04-09 17:54:40 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 18ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 1907)
+
+
+Started GET "/" for 99.167.200.217 at 2021-04-09 17:54:42 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 407)
+
+
+Started GET "/static_pages/about" for 99.167.200.217 at 2021-04-09 17:54:53 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 1.5ms | Allocations: 210)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 51.9ms | Allocations: 5441)
+Completed 200 OK in 59ms (Views: 57.0ms | ActiveRecord: 0.0ms | Allocations: 6871)
+
+
+Started GET "/" for 99.167.200.217 at 2021-04-09 17:54:58 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 2)
+Completed 200 OK in 5ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 274)
+
+
+Started GET "/static_pages/about" for 99.167.200.217 at 2021-04-09 18:24:26 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 0.4ms | Allocations: 117)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 17.0ms | Allocations: 3283)
+Completed 200 OK in 22ms (Views: 21.1ms | Allocations: 4507)
+
+
+Started GET "/static_pages/about" for 99.167.200.217 at 2021-04-09 18:24:27 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 2987)
+Completed 200 OK in 11ms (Views: 10.6ms | Allocations: 3462)
+
+
+Started GET "/" for 99.167.200.217 at 2021-04-09 18:24:31 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 107)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 3091)
+Completed 200 OK in 12ms (Views: 11.6ms | Allocations: 3700)
+
+
