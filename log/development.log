@@ -151,3 +151,690 @@ Processing by StaticPagesController#home as HTML
 Completed 200 OK in 90ms (Views: 71.7ms | ActiveRecord: 0.0ms | Allocations: 8344)
 
 
+Started GET "/" for 99.167.200.217 at 2021-04-20 21:01:21 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (4.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.1ms | Allocations: 240)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 96.5ms | Allocations: 17728)
+Completed 200 OK in 122ms (Views: 104.7ms | ActiveRecord: 0.0ms | Allocations: 20428)
+
+
+Started GET "/" for 99.167.200.217 at 2021-04-20 21:01:23 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 3087)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 3471)
+
+
+Started GET "/" for 99.167.200.217 at 2021-04-20 21:01:30 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.5ms | Allocations: 3068)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.0ms | Allocations: 3446)
+
+
+Started GET "/" for 99.167.200.217 at 2021-05-03 18:02:23 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 5.5ms | Allocations: 240)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 107.0ms | Allocations: 5725)
+Completed 200 OK in 153ms (Views: 119.2ms | ActiveRecord: 0.0ms | Allocations: 8426)
+
+
+Started GET "/" for 99.167.200.217 at 2021-05-03 18:02:27 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 15.7ms | Allocations: 3110)
+Completed 200 OK in 22ms (Views: 21.7ms | ActiveRecord: 0.0ms | Allocations: 3494)
+
+
+Started GET "/" for 99.167.200.217 at 2021-05-03 18:02:30 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 33.6ms | Allocations: 3108)
+Completed 200 OK in 48ms (Views: 46.5ms | ActiveRecord: 0.0ms | Allocations: 3486)
+
+
+Started GET "/" for 99.167.200.217 at 2021-05-03 18:02:31 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 33.7ms | Allocations: 3110)
+Completed 200 OK in 47ms (Views: 45.0ms | ActiveRecord: 0.0ms | Allocations: 3491)
+
+
+Started GET "/" for 99.167.200.217 at 2021-05-03 18:02:33 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 25.2ms | Allocations: 3110)
+Completed 200 OK in 33ms (Views: 32.2ms | ActiveRecord: 0.0ms | Allocations: 3491)
+
+
+Started GET "/" for 99.167.200.217 at 2021-05-03 18:02:34 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.3ms | Allocations: 3109)
+Completed 200 OK in 25ms (Views: 24.0ms | ActiveRecord: 0.0ms | Allocations: 3489)
+
+
+Started GET "/" for 99.167.200.217 at 2021-05-03 18:02:36 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.6ms | Allocations: 3108)
+Completed 200 OK in 36ms (Views: 35.3ms | ActiveRecord: 0.0ms | Allocations: 3486)
+
+
+Started GET "/" for 99.167.200.217 at 2021-05-03 18:02:39 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 20.0ms | Allocations: 3108)
+Completed 200 OK in 29ms (Views: 28.5ms | ActiveRecord: 0.0ms | Allocations: 3486)
+
+
+Started GET "/" for 99.167.200.217 at 2021-05-03 18:06:50 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 35.7ms | Allocations: 7178)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 43.1ms | Allocations: 10359)
+Completed 200 OK in 48ms (Views: 46.7ms | ActiveRecord: 0.0ms | Allocations: 11481)
+
+
+Started GET "/" for 99.167.200.217 at 2021-05-03 18:06:55 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 605)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 3585)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms | Allocations: 3964)
+
+
+Started GET "/" for 99.167.200.217 at 2021-05-03 18:07:52 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.9ms | Allocations: 605)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 3585)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms | Allocations: 3961)
+
+
+Started GET "/" for 99.167.200.217 at 2021-05-03 18:08:47 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 14.7ms | Allocations: 6098)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 23.1ms | Allocations: 9380)
+Completed 200 OK in 27ms (Views: 26.1ms | Allocations: 10497)
+
+
+Started GET "/" for 99.167.200.217 at 2021-05-03 18:09:38 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1226)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.5ms | Allocations: 4508)
+Completed 200 OK in 18ms (Views: 17.3ms | Allocations: 5624)
+
+
+Started GET "/" for 99.167.200.217 at 2021-05-03 18:19:14 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (3.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 730.9ms | Allocations: 58409)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 799.9ms | Allocations: 73271)
+Completed 200 OK in 835ms (Views: 809.9ms | ActiveRecord: 0.0ms | Allocations: 76028)
+
+
+Started GET "/" for 99.167.200.217 at 2021-05-03 18:20:55 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1069)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 436.3ms | Allocations: 53134)
+Completed 200 OK in 439ms (Views: 438.4ms | ActiveRecord: 0.0ms | Allocations: 53514)
+
+
+Started GET "/" for 99.167.200.217 at 2021-05-03 18:26:57 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1069)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 398.1ms | Allocations: 56834)
+Completed 200 OK in 401ms (Views: 400.4ms | Allocations: 57210)
+
+
+Started GET "/" for 99.167.200.217 at 2021-05-03 18:27:09 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.3ms | Allocations: 746)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 15.6ms | Allocations: 8139)
+Completed 200 OK in 21ms (Views: 19.8ms | Allocations: 9261)
+
+
+Started GET "/" for 99.167.200.217 at 2021-05-03 20:33:35 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 609)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 7706)
+Completed 200 OK in 9ms (Views: 8.8ms | Allocations: 8085)
+
+
+Started GET "/" for 99.167.200.217 at 2021-05-03 20:33:47 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 609)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 7719)
+Completed 200 OK in 9ms (Views: 8.5ms | Allocations: 8043)
+
+
+Started GET "/" for 99.167.200.217 at 2021-05-03 21:38:02 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (3.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 258.5ms | Allocations: 23498)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 322.4ms | Allocations: 31478)
+Completed 200 OK in 346ms (Views: 330.8ms | ActiveRecord: 0.0ms | Allocations: 34235)
+
+
+Started GET "/" for 99.167.200.217 at 2021-05-03 21:39:41 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.1ms | Allocations: 610)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 510.6ms | Allocations: 58959)
+Completed 200 OK in 513ms (Views: 512.7ms | ActiveRecord: 0.0ms | Allocations: 59340)
+
+
+Started GET "/" for 99.167.200.217 at 2021-05-03 21:39:45 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.7ms | Allocations: 609)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 19.1ms | Allocations: 7707)
+Completed 200 OK in 21ms (Views: 20.5ms | ActiveRecord: 0.0ms | Allocations: 8088)
+
+
+Started GET "/" for 99.167.200.217 at 2021-05-03 21:40:00 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 609)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 400.0ms | Allocations: 58213)
+Completed 200 OK in 402ms (Views: 401.6ms | ActiveRecord: 0.0ms | Allocations: 58589)
+
+
+Started GET "/" for 99.167.200.217 at 2021-05-03 21:41:10 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.3ms | Allocations: 761)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 15.0ms | Allocations: 8156)
+Completed 200 OK in 20ms (Views: 18.5ms | ActiveRecord: 0.0ms | Allocations: 9280)
+
+
+Started GET "/" for 99.167.200.217 at 2021-05-03 21:41:39 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 609)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.2ms | Allocations: 7704)
+Completed 200 OK in 17ms (Views: 16.8ms | ActiveRecord: 0.0ms | Allocations: 8081)
+
+
+Started GET "/" for 99.167.200.217 at 2021-05-03 21:42:43 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 17.9ms | Allocations: 6940)
+  Rendered layout layouts/application.html.erb (Duration: 19.6ms | Allocations: 7011)
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 0.0ms | Allocations: 8114)
+
+
+  
+ActionView::Template::Error (The asset "kitten.jpt" is not present in the asset pipeline.
+):
+    14: <%= link_to image_tag("rails.svg", alt: "Rails logo", width: "200"),
+    15:                       "https://rubyonrails.org/" %>
+    16:                       
+    17: <% image_tag("kitten.jpt", alt: "kitten") %>
+  
+app/views/static_pages/home.html.erb:17
+Started GET "/" for 99.167.200.217 at 2021-05-03 21:42:56 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 6.7ms | Allocations: 4914)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 4984)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms | Allocations: 6188)
+
+
+  
+ActionView::Template::Error (The asset "kitten.jpt" is not present in the asset pipeline.
+):
+    14: <%= link_to image_tag("rails.svg", alt: "Rails logo", width: "200"),
+    15:                       "https://rubyonrails.org/" %>
+    16:                       
+    17: <%= image_tag("kitten.jpt", alt: "kitten") %>
+  
+app/views/static_pages/home.html.erb:17
+Started GET "/" for 99.167.200.217 at 2021-05-03 21:43:34 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 4.0ms | Allocations: 1213)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.6ms | Allocations: 8657)
+Completed 200 OK in 22ms (Views: 21.1ms | ActiveRecord: 0.0ms | Allocations: 9791)
+
+
+Started GET "/" for 99.167.200.217 at 2021-05-03 21:43:41 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1058)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 19.0ms | Allocations: 8153)
+Completed 200 OK in 23ms (Views: 22.7ms | ActiveRecord: 0.0ms | Allocations: 8530)
+
+
+Started GET "/" for 99.167.200.217 at 2021-05-03 21:43:51 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1058)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.3ms | Allocations: 8153)
+Completed 200 OK in 19ms (Views: 18.3ms | ActiveRecord: 0.0ms | Allocations: 8529)
+
+
+Started GET "/" for 99.167.200.217 at 2021-05-03 21:44:00 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 1147)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 1218)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 2314)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check 
+<div class="center jumbotron">
+  <h1>Welcome to the Sample App</h1>
+
+  <h2>
+    This is the home page for the
+    <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+    sample application.
+  </h2>
+
+  <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.svg", alt: "Rails logo", width: "200"),
+                      "https://rubyonrails.org/" %>
+                      
+<%=# image_tag("kitten.jpg", alt: "kitten") %>
+):
+1:    
+2:    <div class="center jumbotron">
+3:      <h1>Welcome to the Sample App</h1>
+4:    
+5:      <h2>
+6:        This is the home page for the
+7:        <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+8:        sample application.
+9:      </h2>
+10:    
+11:      <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+12:    </div>
+13:    
+14:    <%= link_to image_tag("rails.svg", alt: "Rails logo", width: "200"),
+15:                          "https://rubyonrails.org/" %>
+16:                          
+17:    <%=# image_tag("kitten.jpg", alt: "kitten") %>
+  
+app/views/static_pages/home.html.erb:19: syntax error, unexpected end, expecting ')'
+app/views/static_pages/home.html.erb:19: syntax error, unexpected end, expecting ')'
+app/views/static_pages/home.html.erb:19: syntax error, unexpected end, expecting ')'
+app/views/static_pages/home.html.erb:19: syntax error, unexpected end, expecting ')'
+app/views/static_pages/home.html.erb:19: syntax error, unexpected end, expecting ')'
+app/views/static_pages/home.html.erb:19: syntax error, unexpected end, expecting ')'
+Started GET "/" for 99.167.200.217 at 2021-05-03 21:44:25 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 1135)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 1206)
+Completed 500 Internal Server Error in 5ms (Allocations: 1562)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check 
+<div class="center jumbotron">
+  <h1>Welcome to the Sample App</h1>
+
+  <h2>
+    This is the home page for the
+    <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+    sample application.
+  </h2>
+
+  <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.svg", alt: "Rails logo", width: "200"),
+                      "https://rubyonrails.org/" %>
+                      
+<%=# image_tag("kitten.jpg", alt: "kitten") %>
+):
+1:    
+2:    <div class="center jumbotron">
+3:      <h1>Welcome to the Sample App</h1>
+4:    
+5:      <h2>
+6:        This is the home page for the
+7:        <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+8:        sample application.
+9:      </h2>
+10:    
+11:      <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+12:    </div>
+13:    
+14:    <%= link_to image_tag("rails.svg", alt: "Rails logo", width: "200"),
+15:                          "https://rubyonrails.org/" %>
+16:                          
+17:    <%=# image_tag("kitten.jpg", alt: "kitten") %>
+  
+app/views/static_pages/home.html.erb:19: syntax error, unexpected end, expecting ')'
+app/views/static_pages/home.html.erb:19: syntax error, unexpected end, expecting ')'
+app/views/static_pages/home.html.erb:19: syntax error, unexpected end, expecting ')'
+app/views/static_pages/home.html.erb:19: syntax error, unexpected end, expecting ')'
+app/views/static_pages/home.html.erb:19: syntax error, unexpected end, expecting ')'
+app/views/static_pages/home.html.erb:19: syntax error, unexpected end, expecting ')'
+Started GET "/" for 99.167.200.217 at 2021-05-03 21:44:39 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 1135)
+  Rendered layout layouts/application.html.erb (Duration: 2.5ms | Allocations: 1206)
+Completed 500 Internal Server Error in 5ms (Allocations: 1562)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check 
+<div class="center jumbotron">
+  <h1>Welcome to the Sample App</h1>
+
+  <h2>
+    This is the home page for the
+    <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+    sample application.
+  </h2>
+
+  <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.svg", alt: "Rails logo", width: "200"),
+                      "https://rubyonrails.org/" %>
+                      
+<%=# image_tag("kitten.jpg", alt: "kitten") %>
+):
+1:    
+2:    <div class="center jumbotron">
+3:      <h1>Welcome to the Sample App</h1>
+4:    
+5:      <h2>
+6:        This is the home page for the
+7:        <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+8:        sample application.
+9:      </h2>
+10:    
+11:      <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+12:    </div>
+13:    
+14:    <%= link_to image_tag("rails.svg", alt: "Rails logo", width: "200"),
+15:                          "https://rubyonrails.org/" %>
+16:                          
+17:    <%=# image_tag("kitten.jpg", alt: "kitten") %>
+  
+app/views/static_pages/home.html.erb:19: syntax error, unexpected end, expecting ')'
+app/views/static_pages/home.html.erb:19: syntax error, unexpected end, expecting ')'
+app/views/static_pages/home.html.erb:19: syntax error, unexpected end, expecting ')'
+app/views/static_pages/home.html.erb:19: syntax error, unexpected end, expecting ')'
+app/views/static_pages/home.html.erb:19: syntax error, unexpected end, expecting ')'
+app/views/static_pages/home.html.erb:19: syntax error, unexpected end, expecting ')'
+Started GET "/" for 99.167.200.217 at 2021-05-03 21:44:45 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3.5ms | Allocations: 760)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 19.1ms | Allocations: 8153)
+Completed 200 OK in 26ms (Views: 24.6ms | Allocations: 9274)
+
+
+Started GET "/" for 99.167.200.217 at 2021-05-03 21:45:03 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.0ms | Allocations: 609)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 617.5ms | Allocations: 59131)
+Completed 200 OK in 622ms (Views: 621.1ms | Allocations: 59508)
+
+
+Started GET "/" for 99.167.200.217 at 2021-05-03 21:45:09 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.3ms | Allocations: 609)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 463.0ms | Allocations: 58662)
+Completed 200 OK in 466ms (Views: 465.3ms | Allocations: 59038)
+
+
+Started GET "/" for 99.167.200.217 at 2021-05-03 21:45:17 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.2ms | Allocations: 756)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 15.5ms | Allocations: 8187)
+Completed 200 OK in 33ms (Views: 32.0ms | Allocations: 9310)
+
+
+Started GET "/" for 99.167.200.217 at 2021-05-03 21:54:06 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.4ms | Allocations: 750)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.3ms | Allocations: 120)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 251)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 191)
+  Rendered layout layouts/application.html.erb (Duration: 454.8ms | Allocations: 60705)
+Completed 200 OK in 462ms (Views: 460.7ms | Allocations: 61823)
+
+
+Started GET "/" for 99.167.200.217 at 2021-05-03 21:54:29 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 609)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 78)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 55)
+  Rendered layout layouts/application.html.erb (Duration: 18.8ms | Allocations: 8012)
+Completed 200 OK in 23ms (Views: 22.0ms | Allocations: 8389)
+
+
+Started GET "/" for 99.167.200.217 at 2021-05-03 21:56:39 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.9ms | Allocations: 756)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_rails_default.html.erb (Duration: 12.5ms | Allocations: 7245)
+  Rendered layouts/_shim.html.erb (Duration: 0.3ms | Allocations: 116)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 245)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 184)
+  Rendered layout layouts/application.html.erb (Duration: 31.6ms | Allocations: 9586)
+Completed 200 OK in 37ms (Views: 35.9ms | Allocations: 10708)
+
+
+Started GET "/" for 99.167.200.217 at 2021-05-03 21:58:40 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.5ms | Allocations: 762)
+  Rendered layouts/_rails_default.html.erb (Duration: 0.2ms | Allocations: 105)
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 116)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 245)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 184)
+  Rendered layout layouts/application.html.erb (Duration: 12.0ms | Allocations: 2443)
+Completed 200 OK in 19ms (Views: 17.7ms | Allocations: 3559)
+
+
+Started GET "/" for 99.167.200.217 at 2021-05-03 21:59:10 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.4ms | Allocations: 762)
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 2285)
+Completed 500 Internal Server Error in 11ms (Allocations: 3380)
+
+
+  
+ActionView::Template::Error (Missing partial layouts/_rails_default with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/home/ubuntu/environment/sample_app/app/views"
+  * "/home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actiontext-6.1.3.1/app/views"
+  * "/home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionmailbox-6.1.3.1/app/views"
+):
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <meta charset="utf-8">
+    6:     <%= render 'layouts/rails_default' %>
+    7:     <%= render 'layouts/shim' %>
+    8:   </head>
+    9:   <body>
+  
+app/views/layouts/application.html.erb:6
+Started GET "/" for 99.167.200.217 at 2021-05-03 21:59:49 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.3ms | Allocations: 763)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_rails_default.html.erb (Duration: 22.5ms | Allocations: 7245)
+  Rendered layouts/_shim.html.erb (Duration: 0.3ms | Allocations: 116)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 245)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 184)
+  Rendered layout layouts/application.html.erb (Duration: 38.3ms | Allocations: 9590)
+Completed 200 OK in 43ms (Views: 41.9ms | Allocations: 10711)
+
+
