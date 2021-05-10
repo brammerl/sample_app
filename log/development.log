@@ -1078,3 +1078,33 @@ Processing by StaticPagesController#home as HTML
 Completed 200 OK in 22ms (Views: 21.1ms | Allocations: 8706)
 
 
+Started GET "/" for 99.167.200.217 at 2021-05-10 19:47:47 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.1ms | Allocations: 785)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_rails_default.html.erb (Duration: 130.3ms | Allocations: 31353)
+  Rendered layouts/_shim.html.erb (Duration: 0.3ms | Allocations: 116)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 267)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 203)
+  Rendered layout layouts/application.html.erb (Duration: 141.7ms | Allocations: 33759)
+Completed 200 OK in 146ms (Views: 144.6ms | Allocations: 34888)
+
+
+Started GET "/signup" for 99.167.200.217 at 2021-05-10 19:47:48 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 0.4ms | Allocations: 137)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_rails_default.html.erb (Duration: 16.5ms | Allocations: 7357)
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 112)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 75)
+  Rendered layout layouts/application.html.erb (Duration: 21.5ms | Allocations: 8037)
+Completed 200 OK in 26ms (Views: 25.0ms | Allocations: 8945)
+
+
