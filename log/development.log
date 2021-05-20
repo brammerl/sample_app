@@ -1925,3 +1925,35 @@ Processing by UsersController#show as HTML
 Completed 200 OK in 583ms (Views: 579.4ms | ActiveRecord: 0.1ms | Allocations: 67443)
 
 
+Started GET "/signup" for 99.167.200.217 at 2021-05-20 00:19:57 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 2.4ms | Allocations: 142)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_rails_default.html.erb (Duration: 10.2ms | Allocations: 7280)
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 112)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 75)
+  Rendered layout layouts/application.html.erb (Duration: 19.3ms | Allocations: 8105)
+Completed 200 OK in 23ms (Views: 21.9ms | ActiveRecord: 0.0ms | Allocations: 8610)
+
+
+Started GET "/signup" for 99.167.200.217 at 2021-05-20 00:22:07 +0000
+Cannot render console from 99.167.200.217! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by UsersController#new as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/users_controller.rb:7:in `new'
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 355.7ms | Allocations: 190705)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_rails_default.html.erb (Duration: 519.6ms | Allocations: 61369)
+  Rendered layouts/_shim.html.erb (Duration: 0.3ms | Allocations: 116)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 267)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 203)
+  Rendered layout layouts/application.html.erb (Duration: 884.6ms | Allocations: 253882)
+Completed 200 OK in 903ms (Views: 887.3ms | ActiveRecord: 1.0ms | Allocations: 259710)
+
+
