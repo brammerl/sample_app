@@ -2049,3 +2049,124 @@ Processing by StaticPagesController#home as HTML
 Completed 200 OK in 23ms (Views: 22.3ms | ActiveRecord: 0.0ms | Allocations: 8880)
 
 
+Started GET "/" for 54.176.223.126 at 2021-05-20 20:14:18 +0000
+Cannot render console from 54.176.223.126! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.8ms | Allocations: 784)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_rails_default.html.erb (Duration: 575.6ms | Allocations: 61178)
+  Rendered layouts/_shim.html.erb (Duration: 0.3ms | Allocations: 121)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 267)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 203)
+  Rendered layout layouts/application.html.erb (Duration: 589.6ms | Allocations: 63754)
+Completed 200 OK in 593ms (Views: 592.5ms | Allocations: 64888)
+
+
+Started GET "/" for 54.176.223.126 at 2021-05-20 20:14:34 +0000
+Cannot render console from 54.176.223.126! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.0ms | Allocations: 636)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_rails_default.html.erb (Duration: 11.6ms | Allocations: 7156)
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 103)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 73)
+  Rendered layout layouts/application.html.erb (Duration: 20.7ms | Allocations: 8461)
+Completed 200 OK in 23ms (Views: 22.7ms | Allocations: 8838)
+
+
+Started GET "/signup" for 54.176.223.126 at 2021-05-20 20:14:39 +0000
+Cannot render console from 54.176.223.126! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by UsersController#new as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/users_controller.rb:7:in `new'
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 4.0ms | Allocations: 1657)
+  Rendered users/new.html.erb within layouts/application (Duration: 5.5ms | Allocations: 2357)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 2428)
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.9ms | Allocations: 9328)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <% if @user.erros.any? %>
+  <div id="error_explanation">
+    <div class="alert alert-danger">
+      <div>
+        The form contains <%= pluralize(@user.errors.count, "error") %>
+      </div>
+      <ul>
+        <% @user.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+          <% end %>
+      </ul>
+    </div>
+  </div>
+<% end >
+):
+1:    <% if @user.erros.any? %>
+2:      <div id="error_explanation">
+3:        <div class="alert alert-danger">
+4:          <div>
+5:            The form contains <%= pluralize(@user.errors.count, "error") %>
+6:          </div>
+7:          <ul>
+8:            <% @user.errors.full_messages.each do |msg| %>
+9:              <li><%= msg %></li>
+10:              <% end %>
+11:          </ul>
+12:        </div>
+13:      </div>
+14:    <% end >
+  
+app/views/shared/_error_messages.html.erb:16: syntax error, unexpected end-of-input, expecting end
+app/views/shared/_error_messages.html.erb:16: syntax error, unexpected end-of-input, expecting end
+app/views/shared/_error_messages.html.erb:16: syntax error, unexpected end-of-input, expecting end
+app/views/shared/_error_messages.html.erb:16: syntax error, unexpected end-of-input, expecting end
+app/views/shared/_error_messages.html.erb:16: syntax error, unexpected end-of-input, expecting end
+app/views/shared/_error_messages.html.erb:16: syntax error, unexpected end-of-input, expecting end
+app/views/users/new.html.erb:7
+app/views/users/new.html.erb:6
+Started GET "/signup" for 54.176.223.126 at 2021-05-20 20:15:39 +0000
+Cannot render console from 54.176.223.126! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.4ms | Allocations: 232)
+  Rendered users/new.html.erb within layouts/application (Duration: 331.8ms | Allocations: 192437)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_rails_default.html.erb (Duration: 10.1ms | Allocations: 7448)
+  Rendered layouts/_shim.html.erb (Duration: 0.2ms | Allocations: 116)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 271)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 203)
+  Rendered layout layouts/application.html.erb (Duration: 355.2ms | Allocations: 201698)
+Completed 200 OK in 362ms (Views: 359.9ms | ActiveRecord: 0.0ms | Allocations: 202968)
+
+
+Started POST "/users" for 54.176.223.126 at 2021-05-20 20:15:42 +0000
+Cannot render console from 54.176.223.126! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  [1m[36mUser Exists? (1.8ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 5.4ms | Allocations: 2737)
+  Rendered users/new.html.erb within layouts/application (Duration: 13.7ms | Allocations: 7129)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_rails_default.html.erb (Duration: 9.8ms | Allocations: 7204)
+  Rendered layouts/_shim.html.erb (Duration: 0.1ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 103)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 73)
+  Rendered layout layouts/application.html.erb (Duration: 31.9ms | Allocations: 15091)
+Completed 200 OK in 50ms (Views: 34.4ms | ActiveRecord: 1.9ms | Allocations: 19091)
+
+
